@@ -1,0 +1,77 @@
+#maindiv{
+    border:1px solid black ;max-width:75vw;height: fit-content;margin-left: auto;margin-right: auto;text-align: center;background-color: whitesmoke;
+}
+#personal_information{
+    margin: 10px;
+}
+#personal_information_left{
+    text-align:start;min-width:fit-content ;font-size:0.8rem ;
+}
+#personal_information_right{
+    text-align: start;min-width:fit-content;font-size: 0.7rem; 
+}
+#marks_table_div{
+    width: 80%; margin-right:auto;margin-left:auto
+}
+#marks_table{
+    border: 1px solid #ffa64d;
+}
+#marks_table_tr{
+    background-color: #ffa64d;
+}
+#extra_text1{
+    font-size:.9rem ;text-align:start;width:80%;margin-left: auto;margin-right: auto;
+}
+#extra_text2{
+    width: 80%;margin-left: auto;margin-right: auto;
+}
+#instruction_div{
+    font-size:.9rem ;width:80%;margin-left: auto;margin-right: auto;
+}
+#instruction_table{
+    width:50% ;margin-left: auto;margin-right: auto;border: 1px solid #ffa64d;
+}
+#instruction_table_tr{
+    background-color: #ffa64d;
+}
+@media print {
+    .change_btn{
+      display:none;
+    }
+      }
+    .input_academic{
+        margin-top: -20px;
+        width: 4rem;
+        border: 0px solid white;
+        background-color: whitesmoke;
+        
+    }
+    .table_col{
+        font-size: 0.5rem;
+
+    }
+    .marks_block{
+        font-size: .6rem;
+        
+    }
+    .marks_row{
+        font-size: .6rem;
+    }
+    .input_marks{
+        
+        width: 2rem;
+        border: 0px solid white;
+        background-color: whitesmoke;
+    }
+    .change_btn{
+      font-size:0.1rem;background-color:grey;border:0px solid black;border-radius:50%;width:5px;height:5px;margin-left:0px;
+    }
+    #school_name{
+        color: #ff9900;
+    }
+    #school_address{
+        margin-top:-10px;color:#86b300 ;
+    }
+    #academic_performance_text{
+        font-size: 0.9rem;color:#004080;
+    }
